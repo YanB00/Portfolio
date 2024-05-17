@@ -2,14 +2,15 @@
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body{
-    background-color:#cdd8b0;
+    background-color:#d3d3d3;
 }
 
 header{
-    background-color: #8b008b ;
+    background-color: #342a8b ;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,9 +19,9 @@ header{
     }
 
 header img{
-    width: 90px;
-    border: 5px solid black;
-    border-radius: 300px;
+    width: 120px;
+    border: 4px solid black;
+    border-radius: 150px;
 }
 
 header nav ul li {
@@ -39,9 +40,9 @@ header nav ul a{
 }
 
 header nav ul li:hover {
-    background-color: #c8a2c8;
+    background-color: #892cdc;
     transition: 0.5s;
-    color: #281754;
+    color: white;
     font-size: large;
     padding: 15px 10px;
     text-decoration: none;
@@ -57,7 +58,7 @@ main h1{
     padding: 20px 0px;
     text-transform: uppercase;
     font-family: 'Times New Roman', Times, serif;
-    color: #8b008b;
+    color: #342a8b;
 }
 
 .conteudo-descricao img{
@@ -71,14 +72,15 @@ main h1{
 .paragrafo-descricao p{
     text-align: justify;
     padding: 0px 20px 10px 20px;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 480;
+    text-indent: 3%;
 }
 
 .paragrafo-descricao ul{
     text-align: justify;
     padding: 0px 20px 10px 20px;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 480;
 }
 
@@ -87,13 +89,48 @@ main h1{
 }
 
 .card-header{
-    background-color: #95b963;
+    background-color: #005859;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
 }
 
 .card-body{
-   background-color:  #c8a2c8;
+   background-color:  #5f9ea0;
+   font-size: 17px;
 }
 
+footer{
+    background-color: #342a8b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 230px;
+    justify-content: center;
+}
+footer h1{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+   
+}
 
+footer p{
+    font-size: 15px;
+    text-align: center;
+    color:white;
+    margin: 5px 5px;
+}
+.maiuscula{
+    text-transform:capitalize;
+}
 
-
+footer img{
+    width: 50px;
+    margin: 18px 18px;
+}
+.icone{
+    display: flex;
+    flex-direction: row;
+}
